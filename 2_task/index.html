@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task №2</title>
+</head>
+
+<body>
+    <a href="../index.html" title="Portfolio">
+        <div class="header">
+            <div class="icon-header"></div>
+            <h1>Constructions that control program execution.</h1>
+        </div>
+    </a>
+    <div class="content">
+        <div class="task-1">
+            <div class="icon-rsp"></div>
+            <div class="header-1">
+                <h2>Assignment 1:</h2>
+                <p>Game: “Rock, Scissors, Paper”. The user plays a classic game of Rock, Scissors, Paper against the
+                    computer. The program asks for the user's choice, generates a random choice for the computer,
+                    determines the winner, and displays the result.
+                </p>
+            </div>
+            <div class="result-1">
+                <p class="p-result-1">Make your choice</p>
+                <div class="btns-rsp">
+                    <div class="btn-rock">
+                        <div class="btn-icon-rock"></div>
+                        <p>Rock</p>
+                    </div>
+                    <div class="btn-scissors">
+                        <div class="btn-icon-scissors"></div>
+                        <p>Scissors</p>
+                    </div>
+                    <div class="btn-paper">
+                        <div class="btn-icon-paper"></div>
+                        <p>Paper</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="output-1">
+                    <div class="you">
+                        <p class="output-1-header">You</p>
+                        <div class="your-choice"></div>
+                    </div>
+                    <div class="opponent">
+                        <p class="output-1-header">Opponent</p>
+                        <div class="opponent-choice"></div>
+                    </div>
+                    <div class="outcome">
+                        <p class="output-1-header">Outcome</p>
+                        <p class="rsp"></p>
+                    </div>
+                    <div class="total-score">
+                        <p class="output-1-header">Total score</p>
+                        <p class="userWin"></p>
+                        <p class="opponentWin"></p>
+                        <p class="tie"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="task-2">
+        <div class="icon-quiz"></div>
+        <div class="header-2">
+            <h2>Assignment 2:</h2>
+            <p>Game: "Math Quiz." The program generates five random math expressions (addition, subtraction,
+                multiplication, or division) and prompts the user for the correct answers. The user gets three attempts
+                to give the correct answer. At the end of the game, the program shows how many answers were correct and
+                incorrect.
+            </p>
+        </div>
+        <div class="result-2">
+            <div class="btn" id="btnQuiz">
+                <h5>Let's play</h5>
+                <div class="btn-icon"></div>
+            </div>
+            <div class="output-2">
+                <div class="popupQuiz">
+                    <p class="questionQuiz"></p>
+                    <p id="result"></p>
+                    <div class="inputQuiz">
+                        <label for="answer">Enter calculation result:</label>
+                        <input type="text" id="answer" placeholder="25">
+                        <span class="errorAnswer"></span>
+                        <span class="wrongAnswer"></span>
+                        <span class="correctAnswer"></span>
+                    </div>
+                    <div class="btnsQuiz">
+                        <button class="submit">Submit</button>
+                        <button class="quitQuiz">Quit quiz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script type="module" src="file.js"></script>
+</body>
+
+</html>
