@@ -15,9 +15,10 @@ export const validate = {
             errorElement.textContent = "Entered value must be a number";
             element.classList.add("invalid");
             errorElement.style.display = "block";
-            return;
+            return false;
         } else {
             element.classList.add("valid");
+            return true;
         }
 
     },
@@ -30,10 +31,12 @@ export const validate = {
 
         if (element.value.trim().length > 0) {
             element.classList.add("valid");
+            return true;
         } else {
             element.classList.add("invalid");
             errorElement.textContent = "Field cannot be empty";
             errorElement.style.display = "block";
+            return false;
         }
     },
 

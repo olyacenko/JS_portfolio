@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task №3</title>
+</head>
+
+<body>
+    <a href="../index.html" title="Portfolio">
+        <div class="header">
+            <div class="icon-header"></div>
+            <h1>Functions</h1>
+        </div>
+    </a>
+    <div class="content">
+        <div class="task-1">
+            <div class="icon-BMI"></div>
+            <div class="header-1">
+                <h2>Assignment 1:</h2>
+                <p>Write a program that calculates the body mass index (BMI) and gives recommendations based on the
+                    value obtained.</p>
+            </div>
+            <div class="result-1">
+                <p class="p-result-1">Enter your parameters to get information about your body condition.</p>
+                <div class="inputWeight">
+                    <label for="inputWeight">Enter weight:</label>
+                    <input type="text" id="inputWeight" placeholder="65">
+                    <span class="errorWeight"></span>
+                    <label for="inputHeight">Enter height:</label>
+                    <input type="text" id="inputHeight" placeholder="175">
+                    <span class="errorHeight"></span>
+                    <div class="btn" id="btnCalculateBMI">
+                        <h5>Calculate</h5>
+                        <div class="btn-icon"></div>
+                    </div>
+                </div>
+                <div class="output-container">
+                    <div class="output-1">
+                        <p class="BMIcalculation"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="task-2">
+            <div class="icon-geometry"></div>
+            <div class="header-2">
+                <h2>Assignment 2:</h2>
+                <p>Write a program that calculates the area and perimeter of different geometric shapes (circle,
+                    rectangle, triangle).</p>
+            </div>
+            <div class="result-2">
+                <p class="p-result-2">Just pick the shape and enter the appropriate parameters.</p>
+                <div class="geo-shapes">
+                    <div class="circle"></div>
+                    <div class="rectangle"></div>
+                    <div class="triangle"></div>
+                </div>
+                <div class="inputCircle">
+                    <label for="inputRadius">Enter radius:</label>
+                    <input type="text" id="inputRadius" placeholder="25">
+                    <span class="errorRadius"></span>
+                    <div class="btnCalc" id="btnCalculateCircle">
+                        <h5>Calculate</h5>
+                        <div class="btn-icon"></div>
+                    </div>
+                </div>
+                <div class="inputsRectangle">
+                    <label for="inputLength">Enter length:</label>
+                    <input type="text" id="inputLength" placeholder="25">
+                    <span class="errorLength"></span>
+                    <label for="inputWidth">Enter wigth:</label>
+                    <input type="text" id="inputWidth" placeholder="25">
+                    <span class="errorWidth"></span>
+                    <div class="btnCalc" id="btnCalculateRectangle">
+                        <h5>Calculate</h5>
+                        <div class="btn-icon"></div>
+                    </div>
+                </div>
+                <div class="inputsTriangle">
+                    <label for="inputSideA">Enter length of side A:</label>
+                    <input type="text" id="inputSideA" placeholder="25">
+                    <span class="errorSideA"></span>
+                    <label for="inputSideB">Enter length of side B:</label>
+                    <input type="text" id="inputSideB" placeholder="25">
+                    <span class="errorSideB"></span>
+                    <label for="inputSideC">Enter length of side C:</label>
+                    <input type="text" id="inputSideC" placeholder="25">
+                    <span class="errorSideC"></span>
+                    <div class="btnCalc" id="btnCalculateTriangle">
+                        <h5>Calculate</h5>
+                        <div class="btn-icon"></div>
+                    </div>
+                </div>
+                <div class="output-container">
+                    <div class="output-2">
+                        <p class="calculation"></p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script type="module" src="file.js"></script>
+</body>
+
+</html>
